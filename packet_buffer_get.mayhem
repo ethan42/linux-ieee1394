@@ -1,0 +1,6 @@
+project: firewire
+target: packet-buffer-get-1
+image: ethan42/firewire:packet-buffer-get-1
+advanced_triage: true
+cmds:
+  - cmd: /packet_buffer_get @@

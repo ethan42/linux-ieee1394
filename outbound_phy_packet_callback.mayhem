@@ -1,0 +1,6 @@
+project: firewire
+target: outbound-phy-packet-callback-1
+image: ethan42/firewire:outbound-phy-packet-callback-1
+advanced_triage: true
+cmds:
+  - cmd: /outbound_phy_packet_callback @@
